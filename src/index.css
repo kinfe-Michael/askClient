@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero_items_title {
+  @apply font-semibold text-sm
+}
+.hero_items_icon {
+  @apply w-3/5 h-3/5
+}
+.hero_items {
+  @apply w-2/5 bg-gray-100 shadow-sm border border-gray-200 justify-around flex flex-col items-center h-32 rounded-md mt-5
+
+}
+.addQuestion_input {
+  @apply border border-gray-200 rounded-md
+}
